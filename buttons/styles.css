@@ -1,0 +1,36 @@
+.button, .button--secondary, .button--ghost {
+  font-family: sans-serif;
+  font-size: 12px;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  background-color: brown;
+  display: inline-block;
+}
+
+.button:hover, .button--secondary:hover, .button--ghost:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.button--secondary {
+  color: black;
+  background-color: violet;
+}
+
+.button--ghost {
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.list {
+  margin: 10px;
+}
+
+.list li {
+  padding: 10px;
+}
+/*# sourceMappingURL=styles.css.map */

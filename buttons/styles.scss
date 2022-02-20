@@ -1,0 +1,43 @@
+$button-background: brown;
+$font-size: 12px;
+$padding-button: 8px;
+
+.button {
+  &, 
+  &--secondary,
+  &--ghost {
+    font-family: sans-serif;
+    font-size: $font-size;
+    padding: 8px 40px;
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: $button-background;
+    display: inline-block;
+  }
+  
+  &:hover,
+  &--secondary:hover,
+  &--ghost:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  
+  &--secondary {
+    color: black;
+    background-color: violet;
+  }
+  &--ghost {
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;  
+  }
+}
+  
+.list {
+  margin: 10px;
+}
+.list li {
+  padding: 10px;
+}
